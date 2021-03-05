@@ -4,23 +4,25 @@
   <meta charset="utf-8">
   <title>Reservia</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet"> 
   <script src="https://kit.fontawesome.com/e91c07ac0e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="conetenu">
+    <div id="contenu">
+        <header>
         <img id="logo" src="logo/Reservia@3x.png" alt="Logo de l'agence">
         <nav>
             <p>
-               <a href="#hebergements" id="hebergement">Hébergements</a>
-               <a href="#activites" id="activite">Activités</a>
+               <a href="#hebergements" class="hebergement">Hébergements</a>
+               <a href="#activites" class="activite">Activités</a>
                <input class="inscrire" type="button" value="S'inscrire">
             </p>
         </nav>
+        </header>
         <main>
             <div id="personnalisation">
                 <section>
-                    <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                    <h1 class="titre">Trouver votre hébergement pour des vacances de rêve</h1>
                     <p class="description">En plein centre ville ou pleine nature</p>
                     <i class="fas fa-map-marker-alt"></i>
                     <input id="champ" type="text" value="Marseille, France" />
@@ -277,19 +279,25 @@
         <footer>
             <div class="footerApropos">
             <h3 class="footerTitre">A propos</h3>
-            <a href="#" class="footerFonctionnement">Fonctionnement du site</a>
-            <a href="#" class="footerCondition">Condition général de vente</a>
-            <a href="#" class="footerDonnee"> Données et confidentialité</a>             
+                <ul>
+                    <li><a href="#" class="footerFonctionnement">Fonctionnement du site</a></li>
+                    <li><a href="#" class="footerCondition">Condition général de vente</a></li>
+                    <li><a href="#" class="footerDonnee"> Données et confidentialité</a></li> 
+                </ul>            
             </div>
             <div class="footerNosHebergements">
                 <h3 class="footerTitre">Nos hébergements</h3>
-                <a href="#" class="footerCharte">Charte de qualité</a>
-                <a href="#" class="footerSoumettre">Soumettre votre hôtel</a>             
+            <ul>
+                <li><a href="#" class="footerCharte">Charte de qualité</a></li>
+                <li><a href="#" class="footerSoumettre">Soumettre votre hôtel</a></li> 
+            </ul>               
             </div>
             <div class="footerAssistance">
                 <h3 class="footerTitre">Assistance</h3>
-                <a href="#" class="footerAide">Centre d'aide</a>
-                <a href="#" class="footerContact">Nous contacter</a>            
+                <ul>
+                    <li><a href="#" class="footerAide">Centre d'aide</a></li>
+                    <li><a href="#" class="footerContact">Nous contacter</a></li>    
+                </ul>            
             </div>
         </footer>
     </div>
