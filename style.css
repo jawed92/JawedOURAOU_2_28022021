@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#contenu
+{
+    width: 1200px;
+    min-width: 1000px;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#logo
+{
+    height: 95px;
+    display: flex;
+    justify-content: left;
+    margin-top: 0%;   
+}
+nav
+{
+    display: flex;
+    margin-top: 25px;
+}
+.activite
+{
+    padding-left: 80px;
+}
+a
+{
+    text-decoration: none;
+}
+.inscrire
+{
+    padding-left: 80px;
+    background-color: white;
+    border: none;
+    font-size: medium;
+}
+.titre
+{
+    width: 50%;
+    font-size: 1em;
+}
+.description
+{
+    margin-top: 0px;
+    font-size: 0.8em;
+}
+.fas fa-map-marker-alt
