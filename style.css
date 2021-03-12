@@ -40,6 +40,7 @@ header
     background-color: white;
     border: none;
     font-size: medium;
+    cursor: pointer;
 }
 /*main filtres*/
 .titre
@@ -52,8 +53,472 @@ header
 }
 .position
 {
-    border: #F2F2F2 solid;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
-    
+    padding: 20px;
+
+}
+#champ
+{
+    border: none;
+    padding: 17px;
+    padding-top: 15px;
+    margin-left: -5px;
+    font-weight: bold;
+    font-family: 'Raleway' ,sans-serif;
+    font-size: 1em;
+}
+.recherche
+{
+    padding: 20px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC;
+    margin-left: -5.5px;
+    color: white;
+    font-weight: bold;
+    font-family: 'raleway', sans-serif;
+    cursor: pointer;
+}
+#filtres
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+.fa-money-bill-wave
+{
+    margin-left: 30px;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    padding: 15px;
+    color: #0065FC;
+    margin-top: -20px;
+    align-items: center;
+}
+.economie
+{
+    border: 2px solid;
+    border-left: transparent;
+    border-color: #F2F2F2;
+    border-radius: 0px 30px 30px 0px;
+    padding: 11px;
+    padding-left: 30px;
+    margin-left: -25px;
+}
+.fa-child
+{
+    margin-left: 15px;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    padding: 15px;
+    color: #0065FC;
+    margin-top: -20px;
+}
+.familial
+{
+    border: 2px solid;
+    border-left: transparent;
+    border-color: #F2F2F2;
+    border-radius: 0px 30px 30px 0px;
+    padding: 11px;
+    padding-right: 15px;
+    padding-left: 25px;
+    margin-left: -20px;
+}
+.fa-heart
+{
+    margin-left: 15px;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    padding: 15px;
+    color: #0065FC;
+    margin-top: -20px;
+}
+.romantique
+{
+    border: 2px solid;
+    border-left: transparent;
+    border-color: #F2F2F2;
+    border-radius: 0px 30px 30px 0px;
+    padding: 11px;
+    padding-right: 15px;
+    padding-left: 25px;
+    margin-left: -20px;
+}
+.fa-dog
+{
+    margin-left: 15px;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    margin-top: -20px;
+    padding: 15px;
+    color: #0065FC;
+    margin-top: -20px;
+}
+.animaux
+{
+    border: 2px solid;
+    border-left: transparent;
+    border-color: #F2F2F2;
+    border-radius: 0px 30px 30px 0px;
+    padding: 11px;
+    padding-right: 15px;
+    padding-left: 25px;
+    margin-left: -20px;
+}
+#info
+{
+    margin-top: 40px;
+}
+.fa-info
+{
+    font-size: 0.7em;
+    color: #0065FC;
+    border: 2px solid;
+    border-color: #F2F2F2;
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+/*hebergement*/
+#logements
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 58%;
+}
+.titreMainHeader
+{
+    margin-left: 30px;
+}
+.image1
+{
+    cursor: pointer;
+    height: 250px;
+    width: 234px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+.image1Image
+{
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -15px;
+    margin-left: -35px;
+}
+.image1Titre
+{
+    font-size: 0.77em;
+    margin-left: -20px;
+}
+.image1Prix
+{
+    font-size: 0.77em;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.imageEtoile
+{
+    color: #0065FC;
+    margin-left: -20px;
+    font-size: 0.77em;
+    margin-top: -10px;
+}
+.image2
+{
+    margin-left: 320px;
+    margin-top: -250px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 234px;
+    height: 250px;
+
+}
+.image2Image
+{
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -15px;
+    margin-left: -35px;
+}
+.image2Titre
+{
+    font-size: 0.77em;
+    margin-left: -20px;
+}
+.image2Prix
+{
+    font-size: 0.77em;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.image3
+{
+    margin-left: 600px;
+    margin-top: -250px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 234px;
+    height: 250px;
+}
+.image3Image
+{
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -15px;
+    margin-left: -35px;
+}
+.image3Titre
+{
+    font-size: 0.77em;
+    margin-left: -20px;
+}
+.image3Prix
+{
+    font-size: 0.77em;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.image4
+{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 234px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.image4Image
+{
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+    margin-left: -35px;
+    margin-top: -15px;
+}
+.image4Titre
+{
+    font-size: 0.77em;
+    margin-left: -20px;
+}
+.image4Prix
+{
+    font-size: 0.77em;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.image5
+{
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 320px;
+    background-color: white;
+    width: 234px;
+    height: 250px;
+    margin-top: -250px;
+}
+.image5Image
+{
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+    margin-left: -35px;
+    margin-top: -15px;
+}
+.image5Titre
+{
+    font-size: 0.77em;
+    margin-left: -20px;
+}
+.image5Prix
+{
+    font-size: 0.77em;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.image6
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: -250px;
+    width: 234px;
+    height: 250px;
+
+}
+.image6Image
+{
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+    margin-left: -35px;
+    margin-top: -15px;
+}
+.image6Titre
+{
+    font-size: 0.77em;
+    margin-left: -20px;
+}
+.image6Prix
+{
+    font-size: 0.77em;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.afficher
+{
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+}
+
+/*Les plus populaires*/
+#populaires
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 35%;
+    margin-left: 65%;
+    margin-top: -699px;
+    height: 705px;
+}
+.titrePopulaire
+{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.fa-chart-line
+{
+    margin-left: 460px;
+    font-size: 30px;
+    margin-top: -55px;
+}
+.imageFigure
+{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 30px;
+    width: 450px;
+    height: 160px;
+}
+.imagePopulaire
+{
+    height: 150px;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.imageAsideTitre
+{
+    padding-left: 250px;
+    font-size: 1em;
+    margin-top: -150px;
+}
+.imageAsidePrix
+{
+    padding-left: 250px;
+    margin-top: -15px;
+}
+.imageAsideEtoile
+{
+    padding-left: 250px;
+    color: #0065FC;
+}
+.image1AsideFigure
+{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 30px;
+    width: 450px;
+    height: 160px;
+}
+.image1Populaire
+{
+    height: 150px;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 225px;
+}
+.image1AsideTitre
+{
+    font-size: 1em;
+    padding-left: 250px;
+    margin-top: -150px;
+}
+.image1AsidePrix
+{
+    padding-left: 290px;
+    margin-top: -120px;
+}
+.image1Etoile
+{
+    padding-left: 290px;
+    color: #0065FC;
+}
+.image2AsideFigure
+{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 450px;
+    height: 160px;
+    margin-top: 90px;
+}
+.image2Populaire
+{
+    height: 150px;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 225px;
+}
+.image2AsideTitre
+{
+    padding-left: 250px;
+    font-size: 1em;
+    margin-top: -150px;
+}
+.image2AsidePrix
+{
+    padding-left: 290px;
+    margin-top: -120px;
+}
+.image2Etoile
+{
+    padding-left: 290px;
+    color: #0065FC;
+}
+
+
+/*Activitées*/
+#activites
+{
+    display: flex;
+    flex-direction: row;
+}
+.activitesTitre
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 600px;
+    text-align: justify;
+    background-color: yellow;
+}
+#image1Activites
+{
+    padding-top: 150px;
+    padding-left: -450px;
+}
+.image1ActiviteImage
+{
+    height: 300px;
 }
