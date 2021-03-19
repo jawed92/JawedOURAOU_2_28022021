@@ -153,7 +153,7 @@ header
 {
     margin-left: 15px;
     border-radius: 100%;
-    background-color: #DEEBFF;
+    background-color:#DEEBFF;
     margin-top: -20px;
     padding: 15px;
     color: #0065FC;
@@ -195,316 +195,186 @@ header
 }
 #logements
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     width: 65%;
-
+}
+#photoLogement    
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .titreMainHeader 
 {
-   
+   padding-left: 25px;
 }
-.image1Figure
+.imageFigure
 {
     cursor: pointer;
-    height: 250px;
-    width: 233px;
+    height: 265px;
+    width: 245px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
+    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
-.image1Image
+.imageImage
 {
+    width: 240px;
     height: 150px;
     border-radius: 20px 20px 0px 0px;
-    padding-top: 4px;
-    padding-left: 4px;
+    padding: 3px;
 }
-.image1Titre
+.imageTitre
 {
     font-size: 1em;
-    padding-left: 4px;
+    padding-left: 10px;
+    line-height: 0%;
 }
-.image1Prix
+.imagePrix
 {
     font-size: 1em;
-    padding-left: 4px;
+    padding-left: 10px;
+    line-height: 15px;
 }
 .imageEtoile
 {
     color: #0065FC;
-    padding-left: 4px;
-    font-size: 1em;
+    padding-left: 10px;
 
+    line-height: 0%;
 }
-.image2Figure
+.gris
 {
-    
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    width: 234px;
-    height: 250px;
-
-}
-.image2Image
-{
-    height: 150px;
-    border-radius: 20px 20px 0px 0px;
-    
-}
-.image2Titre
-{
-    font-size: 0.77em;
-    
-}
-.image2Prix
-{
-    font-size: 0.77em;
-    
-}
-.image3Figure
-{
-    
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    width: 234px;
-    height: 250px;
-}
-.image3Image
-{
-    height: 150px;
-    border-radius: 20px 20px 0px 0px;
-    
-}
-.image3Titre
-{
-    font-size: 0.77em;
-    
-}
-.image3Prix
-{
-    font-size: 0.77em;
-    
-}
-.image4Figure
-{
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    width: 234px;
-    height: 250px;
-    
-}
-.image4Image
-{
-    height: 150px;
-    border-radius: 20px 20px 0px 0px;
-    width: 225px;
-    
-}
-.image4Titre
-{
-    font-size: 0.77em;
-    
-}
-.image4Prix
-{
-    font-size: 0.77em;
-    
-}
-.image5Figure
-{
-    border-radius: 20px 20px 20px 20px;
-    
-    background-color: white;
-    width: 234px;
-    height: 250px;
-   
-}
-.image5Image
-{
-    height: 150px;
-    border-radius: 20px 20px 0px 0px;
-    width: 225px;
-    
-}
-.image5Titre
-{
-    font-size: 0.77em;
-    
-}
-.image5Prix
-{
-    font-size: 0.77em;
-    margin-top: -10px;
-    margin-left: -20px;
-}
-.image6Figure
-{
-    border-radius: 20px 20px 20px 20px;
-    background-color: white;
-   
-    width: 234px;
-    height: 250px;
-
-}
-.image6Image
-{
-    height: 150px;
-    border-radius: 20px 20px 0px 0px;
-    width: 225px;
-    
-}
-.image6Titre
-{
-    font-size: 0.77em;
-    margin-left: -20px;
-}
-.image6Prix
-{
-    font-size: 0.77em;
-    margin-top: -10px;
-    margin-left: -20px;
+    color: #F2F2F2;
 }
 .afficher
 {
     font-weight: bold;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    margin-left: 30px;
+    padding-left: 20px;
+    line-height: 100px;
 }
 
+.imageFigure:hover
+{
+    background-color: #f3f8ff;
+    transform: scale(1.015);
+}
 /*Les plus populaires*/
 #populaires
 {
+    
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 33%;
+
+}
+#titrePopulaire
+{
+    display: flex;
+    justify-content: space-around;
+}
+#imagePopulaire
+{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #F2F2F2;
-    border-radius: 20px 20px 20px 20px;
-    width: 33%;
-    
-    
-    height: 705px;
+    justify-content: space-between;
 }
-.titrePopulaire 
+.imagePopulaireFigure
 {
-    
-}
-.fa-chart-line
-{
-    
-    font-size: 30px;
-   
-}
-.imageFigure
-{
+    display: flex;
+    height: 180px;
+    width: 420px;
     background-color: white;
-    border-radius: 20px 20px 20px 20px;
-   
-    width: 450px;
-    height: 160px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);      
+}
+.imageFigcaption
+{
+    padding-left: 15px;
 }
 .imagePopulaire
 {
-    height: 150px;
+    height: 170px;
+    width: 170px;
     border-radius: 20px 0px 0px 20px;
-    
+    padding: 5px;
+}
+.image3Populaire
+{
+    height: 170px;
+    width: 200px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px;
 }
 .imageAsideTitre
 {
+    margin-top: 10px;
     
-    font-size: 1em;
    
 }
 .imageAsidePrix
 {
-    padding-left: 250px;
-    margin-top: -15px;
+    line-height: 0px;
+   
 }
 .imageAsideEtoile
 {
-    padding-left: 250px;
+   line-height: 90px;
     color: #0065FC;
 }
-.image1AsideFigure
+.imagePopulaireFigure:hover
 {
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    
-    width: 450px;
-    height: 160px;
+    background-color: #f3f8ff;
+    transform: scale(1.015);
 }
-.image1Populaire
-{
-    height: 150px;
-    border-radius: 20px 0px 0px 20px;
-    
-    width: 225px;
-}
-.image1AsideTitre
-{
-    font-size: 1em;
-  
-}
-.image1AsidePrix
-{
-    
-}
-.image1Etoile
-{
-   
-    color: #0065FC;
-}
-.image2AsideFigure
-{
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    width: 450px;
-    height: 160px;
-    
-}
-.image2Populaire
-{
-    height: 150px;
-    border-radius: 20px 0px 0px 20px;
-    
-    width: 225px;
-}
-.image2AsideTitre
-{
-    
-    font-size: 1em;
-    
-}
-.image2AsidePrix
-{
-    
-}
-.image2Etoile
-{
-    
-    color: #0065FC;
-}
-
 
 /*Activitées*/
 #activites
 {
+   width: 100%;
+}
+#contenuActivite
+{
+   display: flex;
+   
    
 }
-.activitesTitre
+.image1Figure
 {
-    
-}
-#image1Activites
-{
-    
+    width: 250px;
+   height: 450px;
+   background-color: white;
+   border-radius: 20px; 
+   box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
 .image1ActiviteImage
 {
     
+    width: 250px;height: 400px;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+.image2ActiviteImage
+{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+.image3ActiviteImage
+{
+    height: 150px;
+}
+.image4ActiviteImage
+{
+    height: 150px;
+}
+.image5ActiviteImage
+{
+    height: 150px;
+}
+.image6ActiviteImage
+{
+    height: 150px;
 }
