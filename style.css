@@ -207,7 +207,7 @@ header
 {
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 65%;
+    width: 68%;
 }
 #photoLogement    
 {
@@ -276,7 +276,7 @@ header
     
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 33%;
+    width: 30%;
 
 }
 #titrePopulaire
@@ -289,6 +289,7 @@ header
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 .imagePopulaireFigure
 {
