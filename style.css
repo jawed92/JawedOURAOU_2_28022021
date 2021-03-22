@@ -93,7 +93,7 @@ header
 
     margin-top: 40px;
 }
-.filtre:hover
+#filtres:hover
 {
     background-color: #f3f8ff;
     transform: scale(1.015);
@@ -222,16 +222,16 @@ header
 .imageFigure
 {
     cursor: pointer;
-    height: 265px;
-    width: 245px;
+    height: 229px;
+    width: 241px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
 .imageImage
 {
-    width: 240px;
-    height: 150px;
+    width: 236px;
+    height: 114px;
     border-radius: 20px 20px 0px 0px;
     padding: 3px;
 }
@@ -293,8 +293,10 @@ header
 .imagePopulaireFigure
 {
     display: flex;
-    height: 180px;
-    width: 420px;
+    height: 146px;
+    width: 334px;
+    padding: 0px;
+    margin-bottom: 31px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);      
@@ -305,18 +307,12 @@ header
 }
 .imagePopulaire
 {
-    height: 170px;
-    width: 170px;
+    height: 137px;
+    width: 127px;
     border-radius: 20px 0px 0px 20px;
     padding: 5px;
 }
-.image3Populaire
-{
-    height: 170px;
-    width: 200px;
-    border-radius: 20px 0px 0px 20px;
-    padding: 5px;
-}
+
 .imageAsideTitre
 {
     margin-top: 10px;
