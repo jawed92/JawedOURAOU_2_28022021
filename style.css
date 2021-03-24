@@ -4,6 +4,7 @@ body
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 ul
 {
@@ -217,7 +218,8 @@ header
 }
 .titreMainHeader 
 {
-   padding-left: 25px;
+   padding-left: 46px;
+   padding-top: 20px;
 }
 .imageFigure
 {
@@ -251,7 +253,6 @@ header
 {
     color: #0065FC;
     padding-left: 10px;
-
     line-height: 0%;
 }
 .gris
@@ -261,7 +262,7 @@ header
 .afficher
 {
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 46px;
     line-height: 100px;
 }
 
@@ -283,6 +284,7 @@ header
 {
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
 }
 #imagePopulaire
 {
@@ -294,8 +296,8 @@ header
 .imagePopulaireFigure
 {
     display: flex;
-    height: 146px;
-    width: 334px;
+    height: 160px;
+    width: 370px;
     padding: 0px;
     margin-bottom: 31px;
     background-color: white;
@@ -308,26 +310,26 @@ header
 }
 .imagePopulaire
 {
-    height: 137px;
-    width: 127px;
+    height: 150px;
+    width: 135px;
     border-radius: 20px 0px 0px 20px;
     padding: 5px;
 }
 
 .imageAsideTitre
 {
-    margin-top: 10px;
     
+    font-size: 1em;
    
 }
 .imageAsidePrix
 {
-    line-height: 0px;
-   
+    margin-top: -20px;
+    font-size: 1em;
 }
 .imageAsideEtoile
 {
-   line-height: 90px;
+    padding-top: 12px;
     color: #0065FC;
 }
 .imagePopulaireFigure:hover
@@ -352,8 +354,8 @@ header
 }
 .image1Figure
 {
-   height: 500px;
-   width: 300px;
+   height: 475px;
+   width: 302px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -366,19 +368,20 @@ header
 
 .image1ActiviteImage
 {
-    width: 300px;
-    height: 450px;
+    width: 302px;
+    height: 424px;
     border-radius: 20px 20px 0px 0px;    
 }
 .image1ActiviteTitre
 {
     padding-left: 20px;
     line-height: 0px;
+    font-size: 1em;
 }
 .image2Figure
 {
-    height: 250px;
-    width: 300px;
+    height: 225px;
+    width: 302px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -390,19 +393,20 @@ header
 }
 .image2ActiviteImage
 {
-    height: 200px;
-    width: 300px;
+    height: 175px;
+    width: 302px;
     border-radius: 20px 20px 0px 0px;
 }
 .image2ActiviteTitre
 {
     padding-left: 20px;
     line-height: 0px;
+    font-size: 1em;
 }
 .image3Figure
 {
     height: 200px;
-    width: 300px;
+    width: 302px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -415,18 +419,19 @@ header
 .image3ActiviteImage
 {
     height: 150px;
-    width: 300px;
+    width: 302px;
     border-radius: 20px 20px 0px 0px;
 }
 .image3ActiviteTitre
 {
     padding-left: 20px;
     line-height: 0px;
+    font-size: 1em;
 }
 .image4Figure
 {
     height: 500px;
-    width: 300px;
+    width: 302px;
     background-color: white;
     border-radius: 20px; 
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -439,18 +444,19 @@ header
 .image4ActiviteImage
 {
     height: 450px;
-    width: 300px;
+    width: 302px;
     border-radius: 20px 20px 0px 0px;
 }
 .image4ActiviteTitre
 {
     padding-left: 20px;
     line-height: 0px;
+    font-size: 1em;
 }
 .image5Figure
 {
     height: 200px;
-    width: 300px;
+    width: 302px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -463,18 +469,19 @@ header
 .image5ActiviteImage
 {
     height: 150px;
-    width: 300px;
+    width: 302px;
     border-radius: 20px 20px 0px 0px;
 }
 .image5ActiviteTitre
 {
     padding-left: 20px;
     line-height: 0px;
+    font-size: 1em;
 }
 .image6Figure
 {
     height: 250px;
-    width: 300px;
+    width: 302px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -487,13 +494,14 @@ header
 .image6ActiviteImage
 {
     height: 200px;
-    width: 300px;
+    width: 302px;
     border-radius: 20px 20px 0px 0px;
 }
 .image6ActiviteTitre
 {
     padding-left: 20px;
     line-height: 0px;
+    font-size: 1em;
 }
 footer
 {
