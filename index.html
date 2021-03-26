@@ -12,13 +12,13 @@
     <div id="contenu">
         <header>
         <img id="logo" src="logo/Reservia@3x.png" alt="Logo de l'agence">
-        <nav>
-            <p>
+        <nav>            
                <a href="#hebergements" class="hebergement">Hébergements</a>
                <a href="#activites" class="activite">Activités</a>
+        </nav>  
+            <span id="inscrire">    
                <input class="inscrire" type="button" value="S'inscrire">
-            </p>
-        </nav>
+            </span>         
         </header>
         <main>
             <section>
@@ -28,11 +28,11 @@
                     <i class="fas fa-map-marker-alt position"></i>
                     <input id="champ" type="text" value="Marseille, France" />
                     <input class="recherche" type="button" value="Rechercher" >                        
-                            <div id="filtres"><span class="filtre"> Filtres </span>
-                            <a href="#"> <i class="fas fa-money-bill-wave filtre"></i><span class="economie"> Economique</span></a>
-                            <a href="#"> <i class="fas fa-child filtre"></i><span class="familial"> Familial</span></a>
-                            <a href="#" class="dog"> <i class="fas fa-heart filtre"></i><span class="romantique"> Romantique</span></a>
-                            <a href="#"> <i class="fas fa-dog filtre"></i><span class="animaux"> Animaux autorisés</span></a>
+                            <div id="filtres"><span class="filtreTitre"> Filtres </span>
+                            <a href="#" class="filtre"> <i class="fas fa-money-bill-wave filtre"></i><span class="economie"> Economique</span></a>
+                            <a href="#" class="filtre"> <i class="fas fa-child "></i><span class="familial"> Familial</span></a>
+                            <a href="#" class="filtre"> <i class="fas fa-heart "></i><span class="romantique"> Romantique</span></a>
+                            <a href="#" class="filtre"> <i class="fas fa-dog "></i><span class="animaux"> Animaux autorisés</span></a>
                         </div>
                 </div>
                 <div id="info"><p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p></div>
@@ -251,6 +251,7 @@
             </section>            
         </main>
         <footer>
+            <div id="footerApropos">
             <div class="footerApropos">
             <h3 class="footerTitre">A propos</h3>
                 <ul>
@@ -272,6 +273,7 @@
                     <li><a href="#" class="footerAide">Centre d'aide</a></li>
                     <li><a href="#" class="footerContact">Nous contacter</a></li>    
                 </ul>            
+            </div>
             </div>
         </footer>
     </div>
