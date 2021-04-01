@@ -110,6 +110,7 @@ nav
     font-family: 'raleway', sans-serif;
     cursor: pointer;
 }
+
 #filtres
 {
     font-weight: bold;
@@ -248,18 +249,18 @@ main
    padding-left: 46px;
    padding-top: 20px;
 }
-.imageFigure
-{
+.imageFigure {
     cursor: pointer;
     height: 229px;
-    width: 241px;
+    width: 275px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
+    margin-bottom: 25px;
 }
 .imageImage
 {
-    width: 236px;
+    width: 270px;
     height: 114px;
     border-radius: 20px 20px 0px 0px;
     padding: 3px;
@@ -323,10 +324,10 @@ main
 .imagePopulaireFigure
 {
     display: flex;
-    height: 146px;
+    height: 157px;
     width: 325px;
     padding: 0px;
-    margin-bottom: 31px;
+    margin-bottom: 45px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);      
@@ -334,12 +335,17 @@ main
 
 .imagePopulaire
 {
-    height: 134px;
+    height: 145px;
     width: 120px;
     border-radius: 20px 0px 0px 20px;
     padding: 5px;
 }
-
+.image3Populaire {
+    height: 145px;
+    width: 325px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px;
+}
 .imageAsideTitre
 {
     margin-top: 7px;
@@ -351,9 +357,7 @@ main
     margin-top: -20px;
     font-size: 1em;
 }
-.imageAsideEtoile
-{
-    padding-top: 12px;
+.imageAsideEtoile {
     color: #0065FC;
 }
 .imagePopulaireFigure:hover
@@ -361,14 +365,12 @@ main
     background-color: #f3f8ff;
     transform: scale(1.015);
 }
-
-/*Activitées*/
-#activites
-{
-   
+.legendePopulaire {
+    display: flex;
+    flex-wrap: wrap;
 }
-#contenuActivite
-{
+/*Activitées*/
+#contenuActivite {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
@@ -376,63 +378,55 @@ main
    width: 100%;
    height: 550px;
    margin-top: -30px;
+   margin: 10px;
 }
-.image1Figure
-{
+.image1Figure {
    height: 500px;
-   width: 280px;
+   width: 315px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
    margin-left: 0px;
 }
-.image1Figure:hover
-{
+.image1Figure:hover {
     background-color: #f3f8ff;
     transform: scale(1.015);
 }
 
-.image1ActiviteImage
-{
-    width: 280px;
+.image1ActiviteImage {
+    width: 315px;
     height: 450px;
     border-radius: 20px 20px 0px 0px;    
 }
-.image1ActiviteTitre
-{
+.image1ActiviteTitre {
     padding-left: 20px;
     line-height: 0px;
     font-size: 1em;
 }
-.image2Figure
-{
+.image2Figure {
     height: 225px;
-    width: 280px;
+    width: 315px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
-.image2Figure:hover
-{
+.image2Figure:hover {
     background-color: #f3f8ff;
     transform: scale(1.015);
 }
-.image2ActiviteImage
-{
+.image2ActiviteImage {
     height: 175px;
-    width: 280px;
+    width: 315px;
     border-radius: 20px 20px 0px 0px;
 }
-.image2ActiviteTitre
-{
+.image2ActiviteTitre {
     padding-left: 20px;
     line-height: 0px;
     font-size: 1em;
 }
-.image3Figure
-{
-    height: 200px;
-    width: 280px;
+.image3Figure {
+    height: 215px;
+    width: 315px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -444,8 +438,8 @@ main
 }
 .image3ActiviteImage
 {
-    height: 150px;
-    width: 280px;
+    height: 165px;
+    width: 315px;
     border-radius: 20px 20px 0px 0px;
 }
 .image3ActiviteTitre
@@ -457,7 +451,7 @@ main
 .image4Figure
 {
     height: 500px;
-    width: 280px;
+    width: 315px;
     background-color: white;
     border-radius: 20px; 
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -470,7 +464,7 @@ main
 .image4ActiviteImage
 {
     height: 450px;
-    width: 280px;
+    width: 315px;
     border-radius: 20px 20px 0px 0px;
 }
 .image4ActiviteTitre
@@ -482,7 +476,7 @@ main
 .image5Figure
 {
     height: 200px;
-    width: 280px;
+    width: 315px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -496,7 +490,7 @@ main
 .image5ActiviteImage
 {
     height: 150px;
-    width: 280px;
+    width: 315px;
     border-radius: 20px 20px 0px 0px;
 }
 .image5ActiviteTitre
@@ -508,7 +502,7 @@ main
 .image6Figure
 {
     height: 250px;
-    width: 280px;
+    width: 315px;
    background-color: white;
    border-radius: 20px; 
    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
@@ -522,7 +516,7 @@ main
 .image6ActiviteImage
 {
     height: 200px;
-    width: 280px;
+    width: 315px;
     border-radius: 20px 20px 0px 0px;
 }
 .image6ActiviteTitre
@@ -532,35 +526,131 @@ main
     font-size: 1em;
 }
 /*footer*/
-#footerApropos
+#footerContenu
 {
    display: flex;
+   justify-content: space-between;
    align-items: center;
    margin-left: 30px;
+   width: 65%;
+   line-height: 35px;
 }
-footer
-{
+footer {
     
     height: 250px;
     background-color: #F2F2F2;
     padding-top: 40px;
     margin-top: 40px;
 }
-ul
-{
+ul {
     padding-left: 0px;
-    line-height: 51px;
 }
-.footerApropos
-{
+
+@media all and (min-width: 320px) and (max-width:767px) {
+    header {
+        height: auto;
+        margin-bottom: 38px;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    nav a {
+        width: auto;
+        text-align: center;
+        padding-bottom: 15px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+    nav {
+        order: 2;
+        margin-left: 10px;
+    }
+    .hebergement, .activitec:hover {
+        color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+    transform: scale(1.015);
+    }
+    .activite {
+        width: 100%;
+        padding-right: 25px;
+    }
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    } 
+    .position {
+        margin-left: 15px;
+    }
+    .recherche {
+        padding-left: 2px;
+        width: 80px;
+    }
+    #contenuActivite {
+        
+        height: auto;
+    }
+    #contenuLogementPopulaire {
+        flex-direction: column-reverse;
+    }
+    #filtres {
+        flex-wrap: wrap;
+        line-height: 70px;
+    }
     
+    #champ {
+        width: 114px;
+    }
+    #logement {
+        width: 100%;
+    }
+    #populaires, #logements {
+        width: 100%;
+        border-radius: 0px;
+    }
+    #logements {
+        background-color: white;
+        margin-top: 20px;
+    }
+    h2 {
+        padding-left: 10px;
+    }
+    #contenuLogementPopulaire {
+        margin-left: 0;
+    }
+    #titrePopulaire {
+        padding: 0;
+    }
+    .imageFigure {
+        width: 300px;
+    } 
+    .imageImage {
+        width: 296px;
+    }
+    .imagePopulaireFigure {
+        width: 300px;
+        margin-right: 4px;
+    }
+    .image1ActiviteImage, .image2ActiviteImage, .image3ActiviteImage, .image4ActiviteImage, .image5ActiviteImage, .image6ActiviteImage {
+        width: 300px;
+        height: 164px;
+    }
+    .image1Figure, .image2Figure, .image3Figure, .image4Figure, .image5Figure, .image6Figure {
+        height: 200px;
+        width: 300px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    footer {
+        height: auto;
+    }
+    #footerContenu {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .fa-chart-line {
+        font-size: 1em;
+    }
+    .legendePopulaire {
+        line-height: 21px;
+    }
 }
-.footerNosHebergements
-{
-    padding-left: 250px;
-}
-.footerAssistance
-{
-    padding-left: 250px;
-}
-@media
