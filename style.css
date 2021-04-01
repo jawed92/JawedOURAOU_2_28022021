@@ -585,7 +585,7 @@ ul {
         width: 80px;
     }
     #contenuActivite {
-        
+        flex-direction: row;
         height: auto;
     }
     #contenuLogementPopulaire {
