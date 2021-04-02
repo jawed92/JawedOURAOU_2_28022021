@@ -17,7 +17,9 @@ a {
     width: 100%;
     
 }
-
+.iconeRecherche {
+    display: none;
+}
 /*header*/
 header {
     display: flex;
@@ -72,24 +74,27 @@ nav {
     font-size: 1em;
 }
 .position {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 20px 0px 0px 20px;
     background-color: #F2F2F2;
-    padding: 20px;
-
+    padding: 19px;
+    padding-top: 16px;
+    padding-bottom: 21px;
 }
 #champ {
     border: none;
-    padding: 17px;
-    padding-top: 15px;
+    padding: 16px;
+    padding-top: 11px;
     margin-left: -5px;
     font-weight: bold;
     font-family: 'Raleway' ,sans-serif;
     font-size: 1em;
+    border-bottom: 3px solid #F2F2F2;
+    border-top: 3px solid #F2F2F2;
 }
 .recherche {
     padding: 20px;
     border: none;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 20px 20px 0px;
     background-color: #0065FC;
     margin-left: -5.5px;
     color: white;
@@ -97,12 +102,16 @@ nav {
     font-family: 'raleway', sans-serif;
     cursor: pointer;
 }
-
+#filtreCont {
+    display: flex;
+    margin-top: 42px;
+}
+.filtreTitre {
+    font-weight: bold;
+}
 #filtres {
     font-weight: bold;
     display: flex;
-
-    margin-top: 40px;
 }
 .filtre:hover {
     transform: scale(1.015);
@@ -508,6 +517,15 @@ ul {
         order: 2;
         margin-left: 10px;
     }
+    #logo {
+        width: 40%;
+        height: auto;
+    }
+    #inscrire {
+        width: 33%;
+        padding-right: 11px;
+        padding-top: 12px;
+    }
     .hebergement:hover {
     border-bottom: 3px solid #0065FC;
     border-top: none;
@@ -515,21 +533,33 @@ ul {
     .activite:hover {
         border-bottom: 3px solid #0065FC;
         border-top: none;
-        }
+    }
+    .hebergement {
+        width: 50%;
+    }
     .activite {
-        width: 100%;
+        width: 50%;
         padding-right: 25px;
     }
     main {
         margin-left: 0px;
         margin-right: 0px;
     } 
-    .position {
-        margin-left: 15px;
+    .filtre1 {
+        margin-left: -19px;
     }
     .recherche {
-        padding-left: 2px;
-        width: 80px;
+        display: none;
+        
+    }
+    .iconeRecherche {
+        display: inline-block;
+        background-color: #0065FC;
+        border: none;
+        padding: 21px;
+        margin: -5px;
+        margin-left: -20px;
+        border-radius: 20px 20px 20px 20px;
     }
     #contenuActivite {
         flex-direction: row;
@@ -538,13 +568,16 @@ ul {
     #contenuLogementPopulaire {
         flex-direction: column-reverse;
     }
+    #filtreCont {
+        display: block;
+    }
     #filtres {
         flex-wrap: wrap;
         line-height: 70px;
     }
     
     #champ {
-        width: 114px;
+        width: 180px;
     }
     #logement {
         width: 100%;
@@ -556,6 +589,9 @@ ul {
     #logements {
         background-color: white;
         margin-top: 20px;
+    }
+    .titreMainHeader {
+        margin-left: -46px;
     }
     h2 {
         padding-left: 10px;
@@ -618,6 +654,13 @@ ul {
     nav {
         order: 2;
     }
+    #logo {
+        width: 30%;
+    }
+    #inscrire {
+        width: 20%;
+        margin-top: 10px;
+    }
     .hebergement :hover {
     border-bottom: 3px solid #0065FC;
     border-top: none;
@@ -627,10 +670,10 @@ ul {
         border-top: none;
     }
     .hebergement {
-        width: 100%;
+        width: 50%;
     }
     .activite {
-        width: 100%;
+        width: 50%;
         padding-right: 25px;
     }
     main {
@@ -638,11 +681,18 @@ ul {
         margin-right: 0px;
     } 
     .position {
-        margin-left: 15px;
+        margin-left: 170px;
+        margin-top: 15px;
     }
     .recherche {
         padding-left: 2px;
         width: 80px;
+    }
+    .filtreTitre {
+        padding-top: 22px;
+    }
+    .filtre1 {
+        margin-left: 15px;
     }
     #contenuActivite {
         flex-direction: row;
@@ -657,7 +707,7 @@ ul {
     }
     
     #champ {
-        width: 114px;
+        width: 180px;
     }
     #logement {
         width: 100%;
@@ -704,8 +754,9 @@ ul {
         height: auto;
     }
     #footerContenu {
-        flex-direction: column;
-        align-items: baseline;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
     }
     .fa-chart-line {
         font-size: 1em;
