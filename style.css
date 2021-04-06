@@ -523,7 +523,6 @@ ul {
     }
     #inscrire {
         width: 33%;
-        padding-right: 11px;
         padding-top: 12px;
     }
     .hebergement:hover {
@@ -542,7 +541,7 @@ ul {
         padding-right: 25px;
     }
     .position {
-        margin-left: 20px;
+        margin-left: 18px;
     }
     main {
         margin-left: 0px;
